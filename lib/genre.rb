@@ -22,7 +22,7 @@ class Genre
   end
 
   def artists
-    self.songs.collect {|song| song.artist} #referencing songs method to create an array for only songs of this genre, then crreating an array of just the artists
+    songs.collect {|song| song.artist} #referencing songs method to create an array for only songs of this genre, then crreating an array of just the artists
   end
 
 end
